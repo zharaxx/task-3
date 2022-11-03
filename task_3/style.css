@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    border: 40px solid black;
+    margin-top: 10px;
+    
+}
+.container h1 {
+    background-color: black;
+    color: burlywood;
+    text-align: center;
+}
+.container .logo {
+    background-color: black;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    margin-top:-65px;
+}
+
+.form{
+    margin: auto;
+    width: 500px;
+height: 100px;
+background: #B58C4F;
+border-radius: 20px;
+padding: 30px;
+margin-top: 20px;
+text-align: center;
+}
+
+.form input {
+    width: 400px;
+}
+
+.table{
+    border: 1px solid burlywood;
+    width: 500px;
+    margin: auto;
+    margin-top: 45px;
+    border-radius: 20px;
+}
+
+.sosmed{
+    padding-top: 40px;;
+    height: 100px;
+    background-color: white;
+}
+
+.icon{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+}
+
+.icon .ig{
+    margin-right: 300px;
+}
+
+.output{
+    margin-top: 50px;
+    background: #B58C4F;
+border-radius: 20px;
+padding: 40px;
+text-align: center;
+}
+
+.hasil{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pembungkus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.change button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: coral;
+    text-align: center;
+}
+
+.help button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: coral;
+    text-align: center;
+}
